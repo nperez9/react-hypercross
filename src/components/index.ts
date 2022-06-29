@@ -1,5 +1,3 @@
-import BSButton from "./BSButton/BSButton";
+import BSButton from './BSButton/BSButton';
 
-export {
-  BSButton
-}
+export { BSButton };
