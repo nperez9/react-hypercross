@@ -7,9 +7,6 @@ import { BSButtonProps } from './BSButton.types';
 export default {
   title: 'Bootstrap/Button',
   component: BSButton,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 }
 
 const baseArgs: BSButtonProps = {

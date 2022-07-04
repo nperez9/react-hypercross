@@ -71,7 +71,7 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.tsx",
-      "!src/**/*.stories.{js,jsx,ts,tsx}",
+      "!src/**/*.stories.tsx",
       "!src/**/*.types.ts",
       "!<rootDir>/path/to/dir/"
     ],

@@ -3,6 +3,7 @@ import { ButtonHTMLAttributes} from 'react';
 
 export type ButtonType =
   | 'primary'
+  | 'secondary'
   | 'success'
   | 'danger'
   | 'warning'

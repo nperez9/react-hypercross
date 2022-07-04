@@ -7,9 +7,6 @@ import { CardProps } from './BSCard.types';
 export default {
   title: 'Bootstrap/Card',
   component: BSCard,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 };
 
 const baseArgs: CardProps = {
@@ -42,4 +39,5 @@ Complete.args = {
     { url: 'https://www.youtube.com/', title: 'Youtube', target: '_blank' },
   ],
   subtitle: 'This is the subtitle prop',
+  imagePosition: 'bottom',
 };
