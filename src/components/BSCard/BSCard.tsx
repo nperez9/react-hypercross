@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { CardProps } from './Card.types';
-import styles from './Card.module.scss';
+import { CardProps } from './BSCard.types';
+import styles from './BSCard.module.css';
 
 const Card: React.FC<CardProps> = ({ title, paragraph, subtitle = '', links = [], imageSrc = "" }) => {
   const imageCard = imageSrc ? <img src={imageSrc} className="card-img-top" alt={title} /> : null;
